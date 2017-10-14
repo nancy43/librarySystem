@@ -65,7 +65,7 @@ table,th,td{
    <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">Books</a>
     <div class="dropdown-content">
-      <a href="index.php">ADD</a>
+      <a href="index3.php">ADD</a>
       <a href="delete.php">Delete</a>
       
     </div>

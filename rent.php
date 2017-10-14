@@ -3,7 +3,7 @@ include("connection.php");
 require "Database.php";
 require "books.php";
 include "session.php";
-
+$databaseConnection = new DatabaseConnection;
  if($_GET['bookID'])
  {
 	 $rentBookSelected = $_GET['bookID'];

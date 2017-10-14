@@ -63,6 +63,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
                <label>Password  :</label><br><br><input type = "password" name = "password" class = "box" /><br/><br />
                <input type = "submit" value = " Submit "/>&nbsp
                <button value="Sign Up" ><a href="index2.php">Sign Up</a></button>
+               <button value="admin" ><a href="index_main.php">Admin Login</a></button>
             </form>
             
             <div style = "font-size:11px; color:#cc0000; margin-top:10px"><?php echo $error; ?></div>
